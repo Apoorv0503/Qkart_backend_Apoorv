@@ -62,3 +62,65 @@ QKart Backend is a robust and scalable set of REST APIs designed to power the QK
    ```bash
    git clone https://github.com/yourusername/qkart-backend.git
    cd qkart-backend
+# API Documentation
+
+## User APIs
+
+### GET /v1/users
+
+- **Description**: Retrieves user data.
+- **Authentication**: Requires JWT token.
+
+## Shopping Cart APIs
+
+### GET /v1/cart
+
+- **Description**: Retrieves the user's shopping cart.
+- **Authentication**: Requires JWT token.
+
+### POST /v1/cart
+
+- **Description**: Adds an item to the user's shopping cart.
+- **Authentication**: Requires JWT token.
+
+### PUT /v1/cart
+
+- **Description**: Updates an item in the user's shopping cart.
+- **Authentication**: Requires JWT token.
+
+## Testing
+
+### Test-Driven Development
+
+- **Checkout Logic**: Developed with rigorous unit and integration testing.
+- **Jest Framework**: Ensured seamless integration with Jest for robust testing.
+
+# Deployment
+
+## MongoDB Atlas
+
+Setup MongoDB Atlas for cloud data storage to ensure scalability and reliability.
+
+## Render
+
+Deployed QKart backend on Render for robust and scalable deployment.
+
+# Contributing
+
+We welcome contributions to QKart Backend! Please follow these steps to contribute:
+
+1. **Fork the repository.**
+2. **Create a new branch:**
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. **Make your changes and commit them**
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. **Push to the branch**
+   ```bash
+   git push origin feature-branch
+   ```
+5. **Create a Pull Request.**
+
